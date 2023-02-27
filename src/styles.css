@@ -1,0 +1,13 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-family: Poppins, sans-serif;
+}
+nav{
+  display: flex;
+  background: white;
+  padding: 20px 36px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
