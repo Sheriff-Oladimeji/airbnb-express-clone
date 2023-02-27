@@ -3,7 +3,7 @@
 }
 body{
   margin: 0;
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 nav{
   display: flex;
@@ -18,4 +18,14 @@ section{
 .hero{
   display: flex;
   flex-direction: column;
+}
+.hero--photo{
+  max-width: 500px;
+  align-self: center;
+}
+.hero-header{
+  margin-bottom: 16px;
+}
+.hero-text{
+  margin-top: 0;
 }
