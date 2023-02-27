@@ -6,10 +6,10 @@ export default function Card(){
     <div className="card">
  <img src={img1} alt=""/>
  <div className="card--stats">
-  <img src={star} alt=""/>
+  <img src={star} alt="" className="card--star"/>
   <span>5.0</span>
-  <span>(6) • </span>
-  <span>USA</span>
+  <span className="gray">USA</span>
+  <span className="gray">(6) • </span>
  </div>
  <p>Life lessons with Kattie Zaferes</p>
  <p><span>From $136</span> / person</p>
