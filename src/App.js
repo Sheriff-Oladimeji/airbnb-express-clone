@@ -8,12 +8,12 @@ function App() {
   const cards = datas.map(card=>{
    return(
     <Card
-    img={card.img}
-    rating="5.0"
-    reviewCount={6}
-    location="USA"
-    title="Life lessons with Katie Zaferes"
-    price={136}
+    img={card.coverImg}
+    rating={card.stats.rating}
+    reviewCount={card.stats.reviewCount}
+    location={card.location}
+    title={card.title}
+    price={card.price}
    />
    )
   })
@@ -22,7 +22,9 @@ function App() {
    <div>
     <Navbar/>
     <Hero/>
+    <section className="card-list">
     {cards}
+    </section>
    </div>
   );
 }
