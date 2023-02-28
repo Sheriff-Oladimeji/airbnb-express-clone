@@ -12,7 +12,7 @@ function App() {
 img={img1}
 rating="5.0"
 reviewCount={6}
-country="USA"
+location="USA"
 title="Life lessons with Katie Zaferes"
 price={136}
     />
