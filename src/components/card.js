@@ -11,7 +11,7 @@ export default function Card(props){
   <span className="gray">({props.reviewCount}) • </span>
   <span className="gray">{props.location}</span>
  </div>
- <p>Life lessons with Kattie Zaferes</p>
+ <p>{props.title}</p>
  <p><span className="bold">From ${props.price}</span> / person</p>
     </div>
   )
