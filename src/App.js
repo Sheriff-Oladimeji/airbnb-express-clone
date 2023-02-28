@@ -10,10 +10,10 @@ function App() {
     <Hero/>
     <Card
 img={img1}
-rating={5.0}
+rating="5.0"
 reviewCount={6}
 country="USA"
-title="Life lessons with katie Zaferes"
+title="Life lessons with Katie Zaferes"
 price={136}
     />
    </div>
