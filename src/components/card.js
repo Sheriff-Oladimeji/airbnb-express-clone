@@ -1,5 +1,6 @@
 
 import star from "../images/Star 1.png"
+import "../styles.css"
 
 export default function Card(props){
   return(

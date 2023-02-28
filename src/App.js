@@ -22,7 +22,7 @@ function App() {
    <div>
     <Navbar/>
     <Hero/>
-    <section className="card-list">
+    <section className="cards-list">
     {cards}
     </section>
    </div>
