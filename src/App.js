@@ -15,7 +15,7 @@ function App() {
     location={card.location}
     title={card.title}
     price={card.price}
-    openSpot={card.openSpots}
+   openSpots={card.openSpots}
    />
    )
   })

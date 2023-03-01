@@ -98,4 +98,5 @@ section {
   border-radius: 2px;
   font-weight: bold;
   text-transform: uppercase;
+  display: block;
 }
