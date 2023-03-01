@@ -44,5 +44,6 @@ const contents = [
     location: "Norway",
     openSpots: 3,
   },
+  
 ];
 export default contents
